@@ -8,4 +8,20 @@ public class Produto {
         umPreco = preco;
         umNome = nome;
     }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public String toString() {
+        return String.format("Nome: %s%n Codigo: %d%n Preco: %.2f%n");
+    }
 }
