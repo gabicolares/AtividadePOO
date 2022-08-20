@@ -13,5 +13,7 @@ public class Venda {
 
     }
 
-    
+    public double valorTotal() {
+        return 0;
+    }
 }
